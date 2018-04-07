@@ -14,5 +14,5 @@ signal.signal(signal.SIGINT, sig_handler)
 count = 0
 while True:
     count += 1
-    print(f'Line {count}')
+    print(f'Line {count}', flush=True)
     time.sleep(1)
