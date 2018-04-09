@@ -2,14 +2,10 @@
 
 
 import os
-import queue
 import select
 import socket
 import sys
 import threading
-
-
-thread_queue = queue.Queue(maxsize=0)
 
 
 def run(pipeout):
